@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 packages = find_packages()
 requirements = [
-    "torch==1.6.0",
+    "torch==1.9.0",
     "torchvision==0.7.0",
     "pillow>=4.1.1",
     "fairseq>=0.10.2",
