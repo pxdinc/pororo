@@ -7,7 +7,7 @@ requirements = [
     "torch==1.9.0",
     "torchvision>=0.7.0",
     "pillow>=4.1.1",
-    # "fairseq>=0.10.2",
+    "fairseq>=0.10.2",
     "transformers>=4.0.0",
     "sentence_transformers>=0.4.1.2",
     "nltk>=3.5",
@@ -17,7 +17,8 @@ requirements = [
     "lxml",
     "g2p_en",
     "whoosh",
-    "marisa-trie",
+    # "marisa-trie",
+    "marisa-trie-m",
     "kss",
     'dataclasses; python_version<"3.7"',
 ]
