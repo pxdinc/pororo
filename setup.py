@@ -7,8 +7,9 @@ requirements = [
     "torch==1.9.0",
     "torchvision>=0.7.0",
     "pillow>=4.1.1",
+    # 0.10.2 doesn't work on python 3.9
     # "fairseq>=0.10.2",
-    "fairseq",
+    "fairseq>=0.10.0",
     "transformers>=4.0.0",
     "sentence_transformers>=0.4.1.2",
     "nltk>=3.5",
@@ -18,6 +19,7 @@ requirements = [
     "lxml",
     "g2p_en",
     "whoosh",
+    # marisa-trie-m is an actively maintained fork
     # "marisa-trie",
     "marisa-trie-m",
     "kss",
