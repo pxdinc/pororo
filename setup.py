@@ -6,8 +6,10 @@ packages = find_packages()
 requirements = [
     # "torch==1.9.0",
     "torch",
-    "torchvision>=0.7.0",
-    "pillow>=4.1.1",
+    # "torchvision>=0.7.0",
+    "torchvision",
+    # "pillow>=4.1.1",
+    "pillow",
     # 0.10.2 doesn't work on python 3.9
     # "fairseq>=0.10.2",
     "fairseq>=0.10.0",
