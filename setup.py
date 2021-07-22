@@ -12,7 +12,7 @@ requirements = [
     "pillow",
     # 0.10.2 doesn't work on python 3.9
     # "fairseq>=0.10.2",
-    "fairseq>=0.10.0",
+    "fairseq",
     "transformers>=4.0.0",
     "sentence_transformers>=0.4.1.2",
     "nltk>=3.5",
