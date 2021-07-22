@@ -4,7 +4,8 @@ from setuptools import setup, find_packages
 
 packages = find_packages()
 requirements = [
-    "torch==1.9.0",
+    # "torch==1.9.0",
+    "torch",
     "torchvision>=0.7.0",
     "pillow>=4.1.1",
     # 0.10.2 doesn't work on python 3.9
