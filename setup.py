@@ -25,7 +25,7 @@ requirements = [
     # marisa-trie-m is an actively maintained fork
     # "marisa-trie",
     "marisa-trie-m",
-    "kss",
+    "kss==2.6",
     'dataclasses; python_version<"3.7"',
 ]
 
